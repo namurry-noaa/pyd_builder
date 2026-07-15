@@ -1,0 +1,10 @@
+name: py_pyd_modern
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - cython
+  - libpython
+  - gcc_win-64
+  - python=3.11
+  - gxx_win-64

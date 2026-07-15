@@ -1,0 +1,11 @@
+{
+    // Stop C/C++ IntelliSense from analyzing generated Cython C and build artifacts
+    "C_Cpp.files.exclude": {
+        "**/build/**": true,
+        "**/*.egg-info/**": true
+    },
+    // Also hide build intermediates from the file explorer for this project (optional)
+    "files.exclude": {
+        "**/build": true
+    }
+}
