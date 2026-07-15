@@ -8,7 +8,7 @@ This project uses [Semantic Versioning](https://semver.org/).
 ### Added
 - `REQUIREMENTS.md` — full requirements spec, including the strict
   CPython 3.11.x version rule (build vs. runtime requirements).
-- `CHANGELOG.md` — this file.
+- `CHANGELOG.md` — this file, and added a note in the README.
 - Quick Start section and a "Distributing a C++ .pyd" section in README.
 
 ### Changed

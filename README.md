@@ -172,6 +172,7 @@ REBUILD.md    How to recreate the environment (READ THIS FIRST)
   cannot change (filenames, module names, etc.) and common gotchas.
 - **[docs/Compiling_Guidance.md](docs/Compiling_Guidance.md)** — When compiling
   to `.pyd` is worthwhile, and when it isn't.
+- **[CHANGELOG.md](CHANGELOG.md)** — Version history and notable changes.
 
 ---
 
