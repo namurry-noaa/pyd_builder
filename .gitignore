@@ -1,20 +1,25 @@
-# Build intermediates — regenerate on build, never commit
+# ── Build Intermediates ──────────────────────────────
+# Regenerated on every build — never commit
 build/
 *.o
 *.obj
 *.def
-
 # Generated Cython C lives in build/ (already ignored above).
 # Hand-written .c/.cpp go in src/ and ARE committed.
 
-# Python
+# ── Distributable Output ─────────────────────────────
+# bundle_dlls.ps1 output (includes large runtime DLLs) — regenerable
+dist/
+
+# ── Python ───────────────────────────────────────────
 __pycache__/
 *.pyc
 *.egg-info/
 
+# ── Compiled Extension ───────────────────────────────
 # NOTE: compiled/*.pyd is intentionally COMMITTED as a working example.
 #       (Not ignored — leaving it tracked on purpose.)
 
-# OS / editor cruft
+# ── OS / Editor Cruft ────────────────────────────────
 Thumbs.db
 .DS_Store

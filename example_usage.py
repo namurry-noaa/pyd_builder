@@ -8,8 +8,8 @@ import os
 # Add the compiled/ folder to Python's path so it can find the .pyd
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "compiled"))
 
-import cython_module  # loads compiled/cython_module.cp311-win_amd64.pyd
+import cython_test_module  # type: ignore # loads compiled/cython_test_module.cp311-win_amd64.pyd
 
-print(cython_module.greet("World"))
-print("add(2, 3)      =", cython_module.add(2, 3))
-print("compute(1000)  =", cython_module.compute(1000))
+print(cython_test_module.greet("World"))
+print("add(2, 3)      =", cython_test_module.add(2, 3))
+print("compute(1000)  =", cython_test_module.compute(1000))
