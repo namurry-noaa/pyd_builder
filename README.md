@@ -1,6 +1,6 @@
 # PYD Builder for Python 3.11 on Windows x64
 
-**A reusable template for building Windows Python extension modules (`.pyd`)
+**A template package for building Windows Python extension modules (`.pyd`)
 using GNU tools (MinGW/GCC) inside conda — no administrator rights required.**
 
 Compile Python (via Cython), C, or C++ sources into importable `.pyd` modules on
